@@ -1,0 +1,4 @@
+{
+  "tsconfigPath": "./tsconfig.json",
+  "workDir": "./src"
+}

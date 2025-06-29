@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdButton",
+  "componentPropTypeName": "ButtonProps",
+  "title": "AntdButton title",
+  "isContainer": true,
+  "category": "Basic",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}
