@@ -2,7 +2,7 @@ export const componentName = 'AntdButton';
 
 export const title = 'AntdButton title';
 
-export const isContainer = true;
+export const isContainer = false;
 
 export const category = 'Basic';
 

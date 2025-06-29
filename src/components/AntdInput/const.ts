@@ -2,7 +2,7 @@ export const componentName = 'AntdInput';
 
 export const title = 'AntdInput';
 
-export const isContainer = true;
+export const isContainer = false;
 
 export const category = 'Basic';
 

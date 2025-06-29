@@ -21,7 +21,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@chamn/meta-express": "^1.1.8",
+    "@chamn/meta-express": "^1.1.10",
     "@ant-design/icons": "^5.0.1",
     "@chamn/build-script": "^0.8.6",
     "@chamn/engine": "^0.8.6",

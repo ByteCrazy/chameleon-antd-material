@@ -6,7 +6,9 @@ export const snippets: SnippetsType[] = [
     snapshotText: 'SNP',
     description: '组件片段',
     schema: {
-      props: {}
-    }
-  }
+      props: {
+        children: 'Button',
+      },
+    },
+  },
 ];

@@ -1,3 +1,3 @@
-import { CMaterialEventType } from '@chamn/model';
+import { CMaterialEventType, DEFAULT_EVENT_LIST } from '@chamn/model';
 
-export const events: CMaterialEventType[] = [];
+export const events: CMaterialEventType[] = DEFAULT_EVENT_LIST || [];

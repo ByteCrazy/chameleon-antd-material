@@ -2,7 +2,7 @@
   "componentName": "AntdButton",
   "componentPropTypeName": "ButtonProps",
   "title": "AntdButton title",
-  "isContainer": true,
+  "isContainer": false,
   "category": "Basic",
   "groupName": "Antd",
   "typeLibName": "antd",
