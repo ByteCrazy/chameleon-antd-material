@@ -1,5 +1,6 @@
 import { CMaterialType } from '@chamn/model';
 import { propMeta } from './propsMeta';
+import { propMeta as propMetaC } from './propsMetaCustom';
 import { snippets } from './snippets';
 import {
   componentName,
@@ -13,7 +14,7 @@ import { events } from './eventMeta';
 const ComponentMeta: CMaterialType = {
   componentName: componentName,
   title: title || componentName,
-  props: [...propMeta],
+  props: [...propMetaC, ...propMeta],
   isContainer: isContainer,
   category: category || '',
   groupName: groupName || '',
