@@ -15,13 +15,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "@chamn/meta-express": "^1.1.10",
     "@monaco-editor/react": "^4.5.1",
-    "antd": "^5.4.2",
+    "antd": "^5.26.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@chamn/meta-express": "^1.1.10",
     "@ant-design/icons": "^5.0.1",
     "@chamn/build-script": "^0.8.6",
     "@chamn/engine": "^0.8.6",

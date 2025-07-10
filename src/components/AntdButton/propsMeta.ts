@@ -1,33 +1,20 @@
 import { CMaterialType } from '@chamn/model';
+import { isContainerMeta } from '../../commonMeta';
 export const propMeta: CMaterialType['props'] = [
+  {
+    name: 'content',
+    title: 'content',
+    valueType: 'string',
+    setters: ['StringSetter', 'TextAreaSetter'],
+  },
+  ...isContainerMeta,
   {
     name: 'autoFocus',
     title: 'autoFocus',
     valueType: 'boolean',
     setters: ['BooleanSetter'],
   },
-  {
-    name: 'dangerouslySetInnerHTML',
-    title: 'dangerouslySetInnerHTML',
-    valueType: 'object',
-    setters: [
-      {
-        componentName: 'ShapeSetter',
-        initialValue: {},
-        props: {
-          elements: [
-            {
-              name: '__html',
-              title: '__html',
-              valueType: 'string',
-              setters: ['StringSetter', 'TextAreaSetter'],
-            },
-          ],
-        },
-      },
-      'JSONSetter',
-    ],
-  },
+
   {
     name: 'type',
     title: 'type',
@@ -226,12 +213,7 @@ export const propMeta: CMaterialType['props'] = [
       'JSONSetter',
     ],
   },
-  {
-    name: 'rootClassName',
-    title: 'rootClassName',
-    valueType: 'string',
-    setters: ['StringSetter', 'TextAreaSetter'],
-  },
+
   {
     name: 'ghost',
     title: 'ghost',
@@ -249,5 +231,33 @@ export const propMeta: CMaterialType['props'] = [
     title: 'block',
     valueType: 'boolean',
     setters: ['BooleanSetter'],
+  },
+  {
+    name: 'rootClassName',
+    title: 'rootClassName',
+    valueType: 'string',
+    setters: ['StringSetter', 'TextAreaSetter'],
+  },
+  {
+    name: 'dangerouslySetInnerHTML',
+    title: 'dangerouslySetInnerHTML',
+    valueType: 'object',
+    setters: [
+      {
+        componentName: 'ShapeSetter',
+        initialValue: {},
+        props: {
+          elements: [
+            {
+              name: '__html',
+              title: '__html',
+              valueType: 'string',
+              setters: ['StringSetter', 'TextAreaSetter'],
+            },
+          ],
+        },
+      },
+      'JSONSetter',
+    ],
   },
 ];

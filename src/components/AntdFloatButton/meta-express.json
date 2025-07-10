@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdFloatButton",
+  "componentPropTypeName": "FloatButtonProps",
+  "title": "AntdFloatButton",
+  "isContainer": false,
+  "category": "antd",
+  "groupName": "input",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

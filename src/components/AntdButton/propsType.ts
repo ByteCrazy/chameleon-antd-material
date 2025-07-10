@@ -1,3 +1,6 @@
 import { ButtonProps } from 'antd';
 
-export type ComponentProps = ButtonProps & {};
+export type ComponentProps = ButtonProps & {
+  content?: string;
+  isContainer?: boolean;
+};

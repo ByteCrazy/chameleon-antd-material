@@ -1,6 +1,6 @@
-export const componentName = 'AntdButton';
+export const componentName = 'AntdFloatButton';
 
-export const title = 'AntdButton title';
+export const title = 'AntdFloatButton';
 
 export const isContainer = true;
 
