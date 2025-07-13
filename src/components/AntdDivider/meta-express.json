@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdDivider",
+  "componentPropTypeName": "DividerProps",
+  "title": "AntdDivider",
+  "isContainer": false,
+  "category": "Basic",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}
