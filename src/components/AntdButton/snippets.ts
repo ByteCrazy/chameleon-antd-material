@@ -7,7 +7,7 @@ export const snippets: SnippetsType[] = [
     description: 'antd 按钮组件',
     schema: {
       props: {
-        children: 'Button',
+        content: 'Button',
       },
     },
   },

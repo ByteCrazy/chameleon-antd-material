@@ -10,7 +10,13 @@ export const propMeta: CMaterialType['props'] = [
   ...isContainerMeta,
   {
     name: 'autoFocus',
-    title: 'autoFocus',
+    title: 'auto focus',
+    valueType: 'boolean',
+    setters: ['BooleanSetter'],
+  },
+  {
+    name: 'autoHeight',
+    title: 'auto height',
     valueType: 'boolean',
     setters: ['BooleanSetter'],
   },
