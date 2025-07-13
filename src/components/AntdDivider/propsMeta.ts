@@ -32,8 +32,10 @@ export const propMeta: CMaterialType['props'] = [
   ...isContainerMeta,
   {
     name: 'orientation',
-    title: 'orientation',
-    description: '分割线标题的位置	',
+    title: {
+      label: 'orientation',
+      tip: '分割线标题的位置',
+    },
     valueType: 'string',
     setters: [
       {
@@ -59,8 +61,10 @@ export const propMeta: CMaterialType['props'] = [
   },
   {
     name: 'size',
-    title: 'size',
-    description: '间距大小，仅对水平布局有效',
+    title: {
+      label: 'size',
+      tip: '间距大小，仅对水平布局有效',
+    },
     valueType: 'string',
     setters: [
       {

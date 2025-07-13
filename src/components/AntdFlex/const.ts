@@ -1,6 +1,6 @@
-export const componentName = 'AntdDivider';
+export const componentName = 'AntdFlex';
 
-export const title = 'AntdDivider';
+export const title = 'AntdFlex';
 
 export const isContainer = true;
 

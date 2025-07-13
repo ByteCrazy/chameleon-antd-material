@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdFlex",
+  "componentPropTypeName": "ComponentProps",
+  "title": "AntdFlex",
+  "isContainer": true,
+  "category": "layout",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

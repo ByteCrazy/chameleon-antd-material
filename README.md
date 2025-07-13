@@ -13,7 +13,7 @@ npx ME c -n xxx
 - [x] Button
 - [x] Float Button
 - [x] Divider
-- [ ] Flex 布局
+- [x] Flex 布局
 - [ ] Title
 - [ ] 下拉菜单
 - [ ] 导航菜单

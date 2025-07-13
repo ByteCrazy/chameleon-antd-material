@@ -4,6 +4,6 @@ export const title = 'AntdInput';
 
 export const isContainer = false;
 
-export const category = 'Basic';
+export const category = 'Form';
 
 export const groupName = 'Antd';
