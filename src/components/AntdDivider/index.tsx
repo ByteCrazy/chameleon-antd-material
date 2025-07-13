@@ -17,6 +17,7 @@ export const AntdDivider = ({
       {...props}
       children={child}
       style={{
+        boxSizing: 'border-box',
         ...(borderColor ? { borderColor: borderColor } : {}),
         ...(style || {}),
       }}
