@@ -1,7 +1,5 @@
 import { CMaterialType } from '@chamn/model';
 import { propMeta } from './propsMeta';
-import { propMeta as propMetaC } from './propsMetaCustom';
-
 import { snippets } from './snippets';
 import {
   componentName,
@@ -15,12 +13,26 @@ import { events } from './eventMeta';
 const ComponentMeta: CMaterialType = {
   componentName: componentName,
   title: title || componentName,
-  props: [...propMetaC, ...propMeta],
+  props: [...propMeta],
   isContainer: isContainer,
   category: category || '',
   groupName: groupName || '',
-
   events: [...events],
+  methods: [
+    {
+      name: 'setFieldValues',
+      title: '设置表单值',
+      params: [
+        {
+          name: 'values',
+        },
+      ],
+    },
+    {
+      name: 'resetFormValues',
+      title: '重置表单',
+    },
+  ],
   npm: {
     name: componentName,
     package: __PACKAGE_NAME__ || '',

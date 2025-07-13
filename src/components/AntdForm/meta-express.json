@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdForm",
+  "componentPropTypeName": "ComponentProps",
+  "title": "AntdForm",
+  "isContainer": true,
+  "category": "Inpput",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

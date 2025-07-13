@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdFormItem",
+  "componentPropTypeName": "ComponentProps",
+  "title": "AntdFormItem",
+  "isContainer": true,
+  "category": "Form",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

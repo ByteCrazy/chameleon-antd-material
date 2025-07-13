@@ -6,5 +6,6 @@ export const AntdInput = ({ children, value, ...props }: ComponentProps) => {
   const innerValue = useMemo(() => {
     return value || undefined;
   }, [value]);
+
   return <Input {...props} value={innerValue} />;
 };

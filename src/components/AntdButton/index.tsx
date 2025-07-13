@@ -8,6 +8,7 @@ export const AntdButton = ({
   isContainer,
   autoHeight,
   style,
+  isSubmit,
   ...props
 }: ComponentProps) => {
   const child: any = useMemo(() => {
@@ -18,6 +19,7 @@ export const AntdButton = ({
     <Button
       {...props}
       children={child}
+      htmlType={isSubmit ? 'submit' : undefined}
       style={{
         ...(autoHeight ? { height: 'auto' } : {}),
         ...(style || {}),

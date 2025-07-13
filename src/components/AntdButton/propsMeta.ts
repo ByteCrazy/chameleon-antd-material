@@ -239,6 +239,12 @@ export const propMeta: CMaterialType['props'] = [
     setters: ['BooleanSetter'],
   },
   {
+    name: 'isSubmit',
+    title: 'isSubmit',
+    valueType: 'boolean',
+    setters: ['BooleanSetter'],
+  },
+  {
     name: 'rootClassName',
     title: 'rootClassName',
     valueType: 'string',
