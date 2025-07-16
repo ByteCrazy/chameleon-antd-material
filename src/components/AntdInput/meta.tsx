@@ -19,7 +19,6 @@ const ComponentMeta: CMaterialType = {
   isContainer: isContainer,
   category: category || '',
   groupName: groupName || '',
-
   events: [...events],
   npm: {
     name: componentName,

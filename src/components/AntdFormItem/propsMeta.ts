@@ -58,6 +58,133 @@ export const propMeta: CMaterialType['props'] = [
     setters: ['BooleanSetter'],
   },
   {
+    name: 'rules',
+    title: 'rules',
+    valueType: 'array',
+    setters: [
+      {
+        componentName: 'ArraySetter',
+        initialValue: [],
+        props: {
+          item: {
+            initialValue: '',
+            setters: [
+              {
+                componentName: 'ShapeSetter',
+                initialValue: {},
+                props: {
+                  elements: [
+                    {
+                      name: 'required',
+                      title: 'required',
+                      valueType: 'boolean',
+                      setters: ['BooleanSetter'],
+                    },
+                    {
+                      name: 'message',
+                      title: 'message',
+                      valueType: 'string',
+                      setters: ['TextAreaSetter'],
+                    },
+                    {
+                      name: 'type',
+                      title: 'type',
+                      valueType: 'string',
+                      setters: [
+                        {
+                          componentName: 'SelectSetter',
+                          props: {
+                            options: [
+                              { label: 'string', value: 'string' },
+                              { label: 'number', value: 'number' },
+                              { label: 'boolean', value: 'boolean' },
+                              { label: 'method', value: 'method' },
+                              { label: 'regexp', value: 'regexp' },
+                              { label: 'integer', value: 'integer' },
+                              { label: 'float', value: 'float' },
+                              { label: 'array', value: 'array' },
+                              { label: 'object', value: 'object' },
+                              { label: 'enum', value: 'enum' },
+                              { label: 'date', value: 'date' },
+                              { label: 'url', value: 'url' },
+                              { label: 'hex', value: 'hex' },
+                              { label: 'email', value: 'email' },
+                              { label: 'any', value: 'any' },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                    {
+                      name: 'len',
+                      title: {
+                        label: 'len',
+                        tip: 'string 类型时为字符串长度；number 类型时为确定数字； array 类型时为数组长度',
+                      },
+                      valueType: 'number',
+                      setters: ['NumberSetter'],
+                    },
+                    {
+                      name: 'max',
+                      title: {
+                        label: 'max',
+                        tip: '必须设置 type：string 类型为字符串最大长度；number 类型时为最大值；array 类型时为数组最大长度',
+                      },
+                      valueType: 'number',
+                      setters: ['NumberSetter'],
+                    },
+                    {
+                      name: 'min',
+                      title: {
+                        label: 'min',
+                        tip: '必须设置 type：string 类型为字符串最小长度；number 类型时为最小值；array 类型时为数组最小长度',
+                      },
+                      valueType: 'number',
+                      setters: ['NumberSetter'],
+                    },
+                    {
+                      name: 'pattern',
+                      title: 'pattern',
+                      valueType: 'string',
+                      setters: ['TextAreaSetter'],
+                    },
+                    {
+                      name: 'transform',
+                      title: 'transform',
+                      valueType: 'function',
+                      setters: ['FunctionSetter'],
+                    },
+                    {
+                      name: 'validator',
+                      title: 'validator',
+                      valueType: 'function',
+                      setters: ['FunctionSetter'],
+                    },
+                    {
+                      name: 'warningOnly',
+                      title: 'warningOnly',
+                      valueType: 'boolean',
+                      setters: ['BooleanSetter'],
+                    },
+                    {
+                      name: 'whitespace',
+                      title: {
+                        label: 'whitespace',
+                        tip: '如果字段仅包含空格则校验不通过，只在 type: string 时生效	',
+                      },
+                      valueType: 'boolean',
+                      setters: ['BooleanSetter'],
+                    },
+                  ],
+                },
+              },
+            ],
+          },
+        },
+      },
+    ],
+  },
+  {
     name: 'tooltip',
     title: 'tooltip',
     valueType: 'string',
@@ -79,7 +206,18 @@ export const propMeta: CMaterialType['props'] = [
       tip: '可以通过 dependencies 属性，设置关联字段。当关联字段的值发生变化时，会触发校验与更新',
     },
     valueType: 'array',
-    setters: ['ArraySetter'],
+    setters: [
+      {
+        componentName: 'ArraySetter',
+        initialValue: [],
+        props: {
+          item: {
+            initialValue: '',
+            setters: ['StringSetter'],
+          },
+        },
+      },
+    ],
   },
   {
     name: 'colon',
