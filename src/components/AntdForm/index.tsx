@@ -4,16 +4,29 @@ import { Form } from 'antd';
 
 export const AntdForm = React.forwardRef(
   ({ children, ...props }: ComponentProps, ref) => {
-    console.log('🚀 ~ ref:', ref);
     const [form] = Form.useForm();
 
     useImperativeHandle(
       ref,
       () => {
-        console.log(99988989);
         return {
           setFieldValues: (v: any) => {
-            console.log(111, v);
+            form.setFieldsValue(v);
+          },
+          setFieldValue: (name: string, val: string) => {
+            form.setFieldValue(name, val);
+          },
+          getFieldsValue: () => {
+            return form.getFieldsValue();
+          },
+          getFieldValue: (name: string) => {
+            return form.getFieldValue(name);
+          },
+          validateFields: (...args: any) => {
+            return form.validateFields(...args);
+          },
+          resetFormValues: () => {
+            form.resetFields();
           },
         };
       },

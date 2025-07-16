@@ -240,7 +240,10 @@ export const propMeta: CMaterialType['props'] = [
   },
   {
     name: 'isSubmit',
-    title: 'isSubmit',
+    title: {
+      label: 'isSubmit',
+      tip: '是否触发表单提交',
+    },
     valueType: 'boolean',
     setters: ['BooleanSetter'],
   },

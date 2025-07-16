@@ -24,7 +24,10 @@ export const labelColMeta: SetterType<any> = {
 export const propMeta: CMaterialType['props'] = [
   {
     name: 'initialValues',
-    title: 'initialValues',
+    title: {
+      label: 'initialValues',
+      tip: '表单初始值',
+    },
     valueType: 'object',
     setters: ['JSONSetter', 'ExpressionSetter'],
   },
