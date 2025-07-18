@@ -3,10 +3,16 @@ import { SnippetsType } from '@chamn/model';
 export const snippets: SnippetsType[] = [
   {
     title: 'AntdInputNumber',
-    snapshotText: 'SNP',
-    description: '组件片段',
+    snapshotText: 'InputNUmber',
+    description: '数字输入框',
     schema: {
-      props: {}
-    }
-  }
+      style: [
+        {
+          property: 'width',
+          value: '200px',
+        },
+      ],
+      props: {},
+    },
+  },
 ];

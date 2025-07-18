@@ -6,3 +6,4 @@ export * from './AntdFlex';
 export * from './AntdForm';
 export * from './AntdFormItem';
 export * from './AntdInputNumber';
+export * from './AntdSelect';
