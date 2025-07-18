@@ -1,9 +1,9 @@
 {
-  "componentName": "AntdForm",
+  "componentName": "AntdInputNumber",
   "componentPropTypeName": "ComponentProps",
-  "title": "AntdForm",
-  "isContainer": true,
-  "category": "Input",
+  "title": "AntdInputNumber",
+  "isContainer": false,
+  "category": "Form",
   "groupName": "Antd",
   "typeLibName": "antd",
   "typeEntry": "./propsType.ts"

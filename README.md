@@ -14,14 +14,10 @@ npx ME c -n xxx
 - [x] Float Button
 - [x] Divider
 - [x] Flex 布局
-- [ ] Title
-- [ ] 下拉菜单
-- [ ] 导航菜单
-- [ ] 分页
+- [x] Form
 - [ ] checkBox
-- [ ] DatePicker
-- [ ] Form
 - [ ] InputNumber
+- [ ] DatePicker
 - [ ] Radio
 - [ ] Rate
 - [ ] Select
@@ -29,7 +25,11 @@ npx ME c -n xxx
 - [ ] Switch
 - [ ] TimerPicker
 - [ ] TreeSelect
-- [ ] Upload
+- [ ] Title
+- [ ] 下拉菜单
+- [ ] 导航菜单
+- [ ] 分页
+
 - [ ] Avatar
 - [ ] Badge
 - [ ] Calendar
@@ -55,3 +55,4 @@ npx ME c -n xxx
 - [ ] Spin
 - [ ] Watermark
 - [ ] Affix
+- [ ] Upload

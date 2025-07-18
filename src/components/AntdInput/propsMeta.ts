@@ -118,39 +118,7 @@ export const propMeta: CMaterialType['props'] = [
               name: 'strategy',
               title: 'strategy',
               valueType: 'object',
-              setters: [
-                {
-                  componentName: 'ShapeSetter',
-                  initialValue: {},
-                  props: {
-                    elements: [
-                      {
-                        name: 'namedArgs',
-                        title: 'namedArgs',
-                        valueType: 'object',
-                        setters: [
-                          {
-                            componentName: 'ShapeSetter',
-                            initialValue: {},
-                            props: {
-                              elements: [
-                                {
-                                  name: 'value',
-                                  title: 'value',
-                                  valueType: 'string',
-                                  setters: ['StringSetter', 'TextAreaSetter'],
-                                },
-                              ],
-                            },
-                          },
-                          'JSONSetter',
-                        ],
-                      },
-                    ],
-                  },
-                },
-                'JSONSetter',
-              ],
+              setters: ['FunctionSetter'],
             },
             {
               name: 'show',
@@ -162,61 +130,7 @@ export const propMeta: CMaterialType['props'] = [
               name: 'exceedFormatter',
               title: 'exceedFormatter',
               valueType: 'object',
-              setters: [
-                {
-                  componentName: 'ShapeSetter',
-                  initialValue: {},
-                  props: {
-                    elements: [
-                      {
-                        name: 'namedArgs',
-                        title: 'namedArgs',
-                        valueType: 'object',
-                        setters: [
-                          {
-                            componentName: 'ShapeSetter',
-                            initialValue: {},
-                            props: {
-                              elements: [
-                                {
-                                  name: 'value',
-                                  title: 'value',
-                                  valueType: 'string',
-                                  setters: ['StringSetter', 'TextAreaSetter'],
-                                },
-                                {
-                                  name: 'config',
-                                  title: 'config',
-                                  valueType: 'object',
-                                  setters: [
-                                    {
-                                      componentName: 'ShapeSetter',
-                                      initialValue: {},
-                                      props: {
-                                        elements: [
-                                          {
-                                            name: 'max',
-                                            title: 'max',
-                                            valueType: 'number',
-                                            setters: ['NumberSetter'],
-                                          },
-                                        ],
-                                      },
-                                    },
-                                    'JSONSetter',
-                                  ],
-                                },
-                              ],
-                            },
-                          },
-                          'JSONSetter',
-                        ],
-                      },
-                    ],
-                  },
-                },
-                'JSONSetter',
-              ],
+              setters: ['FunctionSetter'],
             },
           ],
         },
@@ -462,5 +376,109 @@ export const propMeta: CMaterialType['props'] = [
     title: 'bordered',
     valueType: 'boolean',
     setters: ['BooleanSetter'],
+  },
+  {
+    name: 'type',
+    title: 'type',
+    valueType: 'string',
+    setters: [
+      'StringSetter',
+      'TextAreaSetter',
+      {
+        componentName: 'SelectSetter',
+        props: {
+          options: [
+            {
+              label: 'button',
+              value: 'button',
+            },
+            {
+              label: 'checkbox',
+              value: 'checkbox',
+            },
+            {
+              label: 'color',
+              value: 'color',
+            },
+            {
+              label: 'date',
+              value: 'date',
+            },
+            {
+              label: 'datetime-local',
+              value: 'datetime-local',
+            },
+            {
+              label: 'email',
+              value: 'email',
+            },
+            {
+              label: 'file',
+              value: 'file',
+            },
+            {
+              label: 'hidden',
+              value: 'hidden',
+            },
+            {
+              label: 'image',
+              value: 'image',
+            },
+            {
+              label: 'month',
+              value: 'month',
+            },
+            {
+              label: 'number',
+              value: 'number',
+            },
+            {
+              label: 'password',
+              value: 'password',
+            },
+            {
+              label: 'radio',
+              value: 'radio',
+            },
+            {
+              label: 'range',
+              value: 'range',
+            },
+            {
+              label: 'reset',
+              value: 'reset',
+            },
+            {
+              label: 'search',
+              value: 'search',
+            },
+            {
+              label: 'submit',
+              value: 'submit',
+            },
+            {
+              label: 'tel',
+              value: 'tel',
+            },
+            {
+              label: 'text',
+              value: 'text',
+            },
+            {
+              label: 'time',
+              value: 'time',
+            },
+            {
+              label: 'url',
+              value: 'url',
+            },
+            {
+              label: 'week',
+              value: 'week',
+            },
+          ],
+        },
+      },
+    ],
   },
 ];
