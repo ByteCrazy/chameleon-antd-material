@@ -1,6 +1,12 @@
 import { CMaterialType } from '@chamn/model';
 export const propMeta: CMaterialType['props'] = [
   {
+    name: 'value',
+    title: 'value',
+    valueType: 'string',
+    setters: ['StringSetter', 'ExpressionSetter'],
+  },
+  {
     name: 'maxLength',
     title: 'maxLength',
     valueType: 'number',

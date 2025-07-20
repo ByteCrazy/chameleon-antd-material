@@ -68,6 +68,16 @@ export const propMeta: CMaterialType['props'] = [
     setters: ['StringSetter'],
   },
   {
+    name: 'getValueFromEvent',
+    title: {
+      label: 'getValueFromEvent',
+      tip: '设置如何将 event 的值转换成字段值',
+    },
+    valueType: 'string',
+    setters: ['FunctionSetter'],
+  },
+
+  {
     name: 'rules',
     title: 'rules',
     valueType: 'array',

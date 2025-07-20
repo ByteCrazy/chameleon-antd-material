@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdRadioGroup",
+  "componentPropTypeName": "RadioGroupProps",
+  "title": "AntdRadioGroup",
+  "isContainer": true,
+  "category": "Form",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

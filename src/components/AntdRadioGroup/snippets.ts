@@ -2,9 +2,9 @@ import { SnippetsType } from '@chamn/model';
 
 export const snippets: SnippetsType[] = [
   {
-    title: 'AntdRadio',
-    snapshotText: 'Radio',
-    description: '单选框',
+    title: 'AntdRadioGroup',
+    snapshotText: 'RadioG',
+    description: '单选框组',
     schema: {
       props: {},
     },
