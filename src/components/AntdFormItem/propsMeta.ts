@@ -16,6 +16,7 @@ export const propMeta: CMaterialType['props'] = [
     valueType: 'string',
     setters: ['StringSetter'],
   },
+
   {
     name: 'labelAlign',
     title: 'labelAlign',
@@ -56,6 +57,15 @@ export const propMeta: CMaterialType['props'] = [
     title: 'required',
     valueType: 'boolean',
     setters: ['BooleanSetter'],
+  },
+  {
+    name: 'valuePropName',
+    title: {
+      label: 'valuePropName',
+      tip: '子节点的值的属性。注意：Switch、Checkbox、Radio 的 valuePropName 应该是 checked，否则无法获取这个两个组件的值。该属性为 getValueProps 的封装，自定义 getValueProps 后会失效',
+    },
+    valueType: 'string',
+    setters: ['StringSetter'],
   },
   {
     name: 'rules',
