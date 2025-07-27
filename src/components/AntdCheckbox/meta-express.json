@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdCheckbox",
+  "componentPropTypeName": "CheckboxProps",
+  "title": "AntdCheckbox",
+  "isContainer": false,
+  "category": "Form",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

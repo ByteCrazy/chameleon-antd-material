@@ -18,7 +18,7 @@ npx ME c -n xxx
 - [ ] checkBox
 - [ ] InputNumber
 - [ ] DatePicker
-- [ ] Radio
+- [x] Radio
 - [ ] Rate
 - [ ] Select
 - [ ] Slider

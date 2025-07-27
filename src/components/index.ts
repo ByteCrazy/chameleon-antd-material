@@ -9,3 +9,5 @@ export * from './AntdInputNumber';
 export * from './AntdSelect';
 export * from './AntdRadio';
 export * from './AntdRadioGroup';
+export * from './AntdCheckbox';
+export * from './AntdCheckboxGroup';

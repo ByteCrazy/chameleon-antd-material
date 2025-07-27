@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react';
 import { ComponentProps } from './propsType';
-import { Radio } from 'antd';
+import { Checkbox } from 'antd';
 
-export const AntdRadioGroup = ({ options, ...props }: ComponentProps) => {
+export const AntdCheckboxGroup = ({ options, ...props }: ComponentProps) => {
   const hasOptions = useMemo(() => {
     return Boolean(options && options.length);
   }, [options]);
@@ -10,5 +10,5 @@ export const AntdRadioGroup = ({ options, ...props }: ComponentProps) => {
   if (!hasOptions) {
     return <div>Please set options</div>;
   }
-  return <Radio.Group {...props} options={options}></Radio.Group>;
+  return <Checkbox.Group {...props} options={options}></Checkbox.Group>;
 };
