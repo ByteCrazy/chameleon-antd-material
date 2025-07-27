@@ -15,12 +15,12 @@ npx ME c -n xxx
 - [x] Divider
 - [x] Flex 布局
 - [x] Form
-- [ ] checkBox
-- [ ] InputNumber
-- [ ] DatePicker
+- [x] checkBox
+- [x] InputNumber
+- [x] DatePicker
 - [x] Radio
 - [ ] Rate
-- [ ] Select
+- [x] Select
 - [ ] Slider
 - [ ] Switch
 - [ ] TimerPicker

@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdDatePicker",
+  "componentPropTypeName": "ComponentProps",
+  "title": "AntdDatePicker",
+  "isContainer": false,
+  "category": "Form",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

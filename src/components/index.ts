@@ -11,3 +11,4 @@ export * from './AntdRadio';
 export * from './AntdRadioGroup';
 export * from './AntdCheckbox';
 export * from './AntdCheckboxGroup';
+export * from './AntdDatePicker';
