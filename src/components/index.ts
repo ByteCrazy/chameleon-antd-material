@@ -22,3 +22,4 @@ export * from './AntdMenu';
 export * from './AntdPagination';
 export * from './AntdModal';
 export * from './AntdDrawer';
+export * from './AntdUpload';

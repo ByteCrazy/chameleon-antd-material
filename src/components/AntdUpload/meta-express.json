@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdUpload",
+  "componentPropTypeName": "UploadProps",
+  "title": "AntdUpload",
+  "isContainer": true,
+  "category": "Data Entry",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}
