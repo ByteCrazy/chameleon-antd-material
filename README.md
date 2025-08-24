@@ -21,7 +21,7 @@ npx ME c -n xxx
 - [x] Radio
 - [x] Select
 - [x] Slider
-- [ ] Switch
+- [x] Switch
 - [ ] TimerPicker
 - [ ] TreeSelect
 - [ ] Title

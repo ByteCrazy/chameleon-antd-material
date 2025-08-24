@@ -1,6 +1,6 @@
-export const componentName = 'AntdSlider';
+export const componentName = 'AntdSwitch';
 
-export const title = 'AntdSlider title';
+export const title = 'AntdSwitch';
 
 export const isContainer = false;
 

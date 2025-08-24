@@ -13,3 +13,4 @@ export * from './AntdCheckbox';
 export * from './AntdCheckboxGroup';
 export * from './AntdDatePicker';
 export * from './AntdSlider';
+export * from './AntdSwitch';
