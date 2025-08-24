@@ -30,8 +30,8 @@ npx ME c -n xxx
 - [x] 分页
 - [x] Modal
 - [x] Drawer
-- [ ] Upload
 - [ ] Table
+- [ ] Upload
 - [ ] Calendar
 - [ ] Affix
 - [ ] Alert
