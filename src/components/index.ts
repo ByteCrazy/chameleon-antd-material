@@ -21,3 +21,4 @@ export * from './AntdDropdown';
 export * from './AntdMenu';
 export * from './AntdPagination';
 export * from './AntdModal';
+export * from './AntdDrawer';

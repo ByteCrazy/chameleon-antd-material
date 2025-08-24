@@ -1,18 +1,16 @@
 import React from 'react';
 import { ComponentProps } from './propsType';
-import { Modal } from 'antd';
+import { Drawer } from 'antd';
 
-export const AntdModal = ({ children, style, ...props }: ComponentProps) => {
+export const AntdDrawer = ({ children, style, ...props }: ComponentProps) => {
   return (
-    <Modal
+    <Drawer
       {...props}
       style={{
         ...(style || {}),
       }}
     >
       {children}
-    </Modal>
+    </Drawer>
   );
 };
-
-export default AntdModal;
