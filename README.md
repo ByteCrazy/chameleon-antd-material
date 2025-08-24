@@ -19,9 +19,8 @@ npx ME c -n xxx
 - [x] InputNumber
 - [x] DatePicker
 - [x] Radio
-- [ ] Rate
 - [x] Select
-- [ ] Slider
+- [x] Slider
 - [ ] Switch
 - [ ] TimerPicker
 - [ ] TreeSelect
@@ -29,30 +28,31 @@ npx ME c -n xxx
 - [ ] 下拉菜单
 - [ ] 导航菜单
 - [ ] 分页
+- [ ] Modal
+- [ ] Drawer
+- [ ] Upload
+- [ ] Table
+- [ ] Calendar
+- [ ] Affix
 
+- [ ] Rate
+- [ ] Collapse
 - [ ] Avatar
 - [ ] Badge
-- [ ] Calendar
 - [ ] Card
 - [ ] Carousel
-- [ ] Collapse
 - [ ] Descriptions
 - [ ] Empty
 - [ ] Image
 - [ ] Popover
 - [ ] Statistic
-- [ ] Table
 - [ ] Timeline
 - [ ] Tooltip
 - [ ] Tree
 - [ ] Alert
-- [ ] Drawer
 - [ ] Message
-- [ ] Modal
 - [ ] Notification
 - [ ] Popconfirm
 - [ ] Progress
 - [ ] Spin
 - [ ] Watermark
-- [ ] Affix
-- [ ] Upload

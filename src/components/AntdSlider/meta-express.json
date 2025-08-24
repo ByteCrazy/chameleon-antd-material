@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdSlider",
+  "componentPropTypeName": "SliderSingleProps",
+  "title": "AntdSlider title",
+  "isContainer": false,
+  "category": "Basic",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}
