@@ -20,3 +20,4 @@ export * from './AntdTitle';
 export * from './AntdDropdown';
 export * from './AntdMenu';
 export * from './AntdPagination';
+export * from './AntdModal';
