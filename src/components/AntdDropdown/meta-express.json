@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdDropdown",
+  "componentPropTypeName": "DropdownProps",
+  "title": "AntdDropdown",
+  "isContainer": true,
+  "category": "Navigation",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

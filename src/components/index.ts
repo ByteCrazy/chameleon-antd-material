@@ -17,3 +17,4 @@ export * from './AntdSwitch';
 export * from './AntdTimePicker';
 export * from './AntdTreeSelect';
 export * from './AntdTitle';
+export * from './AntdDropdown';
