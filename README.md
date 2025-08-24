@@ -22,7 +22,7 @@ npx ME c -n xxx
 - [x] Select
 - [x] Slider
 - [x] Switch
-- [ ] TimerPicker
+- [x] TimePicker
 - [ ] TreeSelect
 - [ ] Title
 - [ ] 下拉菜单
