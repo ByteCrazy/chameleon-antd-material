@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdTreeSelect",
+  "componentPropTypeName": "TreeSelectProps",
+  "title": "AntdTreeSelect",
+  "isContainer": false,
+  "category": "Form",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

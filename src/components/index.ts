@@ -15,3 +15,4 @@ export * from './AntdDatePicker';
 export * from './AntdSlider';
 export * from './AntdSwitch';
 export * from './AntdTimePicker';
+export * from './AntdTreeSelect';
