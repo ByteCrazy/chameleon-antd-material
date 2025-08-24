@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdTable",
+  "componentPropTypeName": "TableProps",
+  "title": "AntdTable",
+  "isContainer": false,
+  "category": "Data Display",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}
