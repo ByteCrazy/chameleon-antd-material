@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdPagination",
+  "componentPropTypeName": "PaginationProps",
+  "title": "AntdPagination",
+  "isContainer": false,
+  "category": "Navigation",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

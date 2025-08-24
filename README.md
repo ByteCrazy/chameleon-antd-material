@@ -27,7 +27,7 @@ npx ME c -n xxx
 - [x] Title
 - [x] 下拉菜单
 - [x] 导航菜单
-- [ ] 分页
+- [x] 分页
 - [ ] Modal
 - [ ] Drawer
 - [ ] Upload
