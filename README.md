@@ -26,7 +26,7 @@ npx ME c -n xxx
 - [x] TreeSelect
 - [x] Title
 - [x] 下拉菜单
-- [ ] 导航菜单
+- [x] 导航菜单
 - [ ] 分页
 - [ ] Modal
 - [ ] Drawer
