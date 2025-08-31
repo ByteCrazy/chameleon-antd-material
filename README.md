@@ -34,7 +34,7 @@ npx ME c -n xxx
 - [x] Table
 - [x] Calendar
 - [x] Affix
-- [ ] Alert
+- [x] Alert
 - [ ] Message
 - [ ] Notification
 - [ ] Popover
