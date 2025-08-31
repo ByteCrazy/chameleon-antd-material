@@ -8,7 +8,6 @@ export const snippets: SnippetsType[] = [
     schema: {
       props: {
         fullscreen: false,
-        headerRender: 'headerRender',
       },
     },
   },
