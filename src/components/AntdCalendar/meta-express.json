@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdCalendar",
+  "componentPropTypeName": "CalendarProps",
+  "title": "AntdCalendar",
+  "isContainer": false,
+  "category": "Data Display",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

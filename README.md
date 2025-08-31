@@ -32,7 +32,7 @@ npx ME c -n xxx
 - [x] Drawer
 - [x] Upload
 - [x] Table
-- [ ] Calendar
+- [x] Calendar
 - [ ] Affix
 - [ ] Alert
 - [ ] Message
