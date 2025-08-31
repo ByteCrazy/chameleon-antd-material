@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdStatistic",
+  "componentPropTypeName": "StatisticProps",
+  "title": "AntdStatistic",
+  "isContainer": false,
+  "category": "Data Display",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

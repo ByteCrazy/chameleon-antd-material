@@ -47,11 +47,11 @@ npx ME c -n xxx
 - [x] Carousel
 - [x] Descriptions
 - [x] Empty
-- [ ] Image
-- [ ] Statistic
-- [ ] Timeline
-- [ ] Tree
-- [ ] Popconfirm
-- [ ] Progress
-- [ ] Spin
-- [ ] Watermark
+- [x] Image
+- [x] Statistic
+- [x] Timeline
+- [x] Tree
+- [x] Popconfirm
+- [x] Progress
+- [x] Spin
+- [x] Watermark

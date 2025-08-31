@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdImage",
+  "componentPropTypeName": "ImageProps",
+  "title": "AntdImage",
+  "isContainer": false,
+  "category": "Data Display",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}
