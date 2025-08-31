@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdDescriptions",
+  "componentPropTypeName": "DescriptionsProps",
+  "title": "AntdDescriptions",
+  "isContainer": true,
+  "category": "Data Display",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

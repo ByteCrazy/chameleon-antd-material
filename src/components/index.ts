@@ -37,3 +37,5 @@ export * from './AntdAvatar';
 export * from './AntdBadge';
 export * from './AntdCard';
 export * from './AntdCarousel';
+export * from './AntdDescriptions';
+export * from './AntdEmpty';

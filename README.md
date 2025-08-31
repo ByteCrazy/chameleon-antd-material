@@ -45,8 +45,8 @@ npx ME c -n xxx
 - [x] Badge
 - [x] Card
 - [x] Carousel
-- [ ] Descriptions
-- [ ] Empty
+- [x] Descriptions
+- [x] Empty
 - [ ] Image
 - [ ] Statistic
 - [ ] Timeline

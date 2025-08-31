@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdEmpty",
+  "componentPropTypeName": "EmptyProps",
+  "title": "AntdEmpty",
+  "isContainer": true,
+  "category": "Data Display",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}
