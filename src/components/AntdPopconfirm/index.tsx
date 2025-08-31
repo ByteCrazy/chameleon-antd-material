@@ -1,16 +1,20 @@
 import React from 'react';
 import { ComponentProps } from './propsType';
-import { Timeline } from 'antd';
+import { Popconfirm } from 'antd';
 
-export const AntdTimeline = ({ children, style, ...props }: ComponentProps) => {
+export const AntdPopconfirm = ({
+  children,
+  style,
+  ...props
+}: ComponentProps) => {
   return (
-    <Timeline
+    <Popconfirm
       {...props}
       style={{
         ...(style || {}),
       }}
     >
       {children}
-    </Timeline>
+    </Popconfirm>
   );
 };

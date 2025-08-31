@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdSpin",
+  "componentPropTypeName": "SpinProps",
+  "title": "AntdSpin",
+  "isContainer": true,
+  "category": "Feedback",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

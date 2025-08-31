@@ -1,16 +1,20 @@
 import React from 'react';
 import { ComponentProps } from './propsType';
-import { Timeline } from 'antd';
+import { Spin } from 'antd';
 
-export const AntdTimeline = ({ children, style, ...props }: ComponentProps) => {
+export const AntdSpin = ({
+  children,
+  style,
+  ...props
+}: ComponentProps) => {
   return (
-    <Timeline
+    <Spin
       {...props}
       style={{
         ...(style || {}),
       }}
     >
       {children}
-    </Timeline>
+    </Spin>
   );
 };

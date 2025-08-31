@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdWatermark",
+  "componentPropTypeName": "WatermarkProps",
+  "title": "AntdWatermark",
+  "isContainer": true,
+  "category": "Feedback",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

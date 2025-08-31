@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdProgress",
+  "componentPropTypeName": "ProgressProps",
+  "title": "AntdProgress",
+  "isContainer": true,
+  "category": "Feedback",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}
