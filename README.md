@@ -39,9 +39,8 @@ npx ME c -n xxx
 - [x] Notification
 - [x] Popover
 - [x] Tooltip
-
-- [ ] Rate
-- [ ] Collapse
+- [x] Rate
+- [x] Collapse
 - [ ] Avatar
 - [ ] Badge
 - [ ] Card

@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdCollapse",
+  "componentPropTypeName": "CollapseProps",
+  "title": "AntdCollapse",
+  "isContainer": true,
+  "category": "Data Display",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

@@ -31,3 +31,5 @@ export * from './AntdMessage';
 export * from './AntdNotification';
 export * from './AntdPopover';
 export * from './AntdTooltip';
+export * from './AntdRate';
+export * from './AntdCollapse';
