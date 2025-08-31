@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdPopover",
+  "componentPropTypeName": "PopoverProps",
+  "title": "AntdPopover",
+  "isContainer": true,
+  "category": "Data Display",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

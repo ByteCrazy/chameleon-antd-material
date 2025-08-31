@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdNotification",
+  "componentPropTypeName": "ArgsProps",
+  "title": "AntdNotification",
+  "isContainer": false,
+  "category": "Feedback",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

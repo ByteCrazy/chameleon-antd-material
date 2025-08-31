@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdTooltip",
+  "componentPropTypeName": "TooltipProps",
+  "title": "AntdTooltip",
+  "isContainer": true,
+  "category": "Data Display",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

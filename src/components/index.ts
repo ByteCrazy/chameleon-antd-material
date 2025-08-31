@@ -27,3 +27,7 @@ export * from './AntdTable';
 export * from './AntdCalendar';
 export * from './AntdAffix';
 export * from './AntdAlert';
+export * from './AntdMessage';
+export * from './AntdNotification';
+export * from './AntdPopover';
+export * from './AntdTooltip';

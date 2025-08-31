@@ -1,6 +1,6 @@
 import React from 'react';
 import { ComponentProps } from './propsType';
-import { Affix } from 'antd';
+import { Affix, Button } from 'antd';
 
 export const AntdAffix = ({ children, style, ...props }: ComponentProps) => {
   return (
@@ -10,7 +10,7 @@ export const AntdAffix = ({ children, style, ...props }: ComponentProps) => {
         ...(style || {}),
       }}
     >
-      {children}
+      <span>{children}</span>
     </Affix>
   );
 };
