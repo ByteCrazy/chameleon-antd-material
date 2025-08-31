@@ -1,8 +1,14 @@
 import React from 'react';
 import { ComponentProps } from './propsType';
-import { Collapse } from 'antd';
+import { Collapse, CollapseProps } from 'antd';
 
 export const AntdCollapse = ({ children, style, ...props }: ComponentProps) => {
+  const text = `
+  A dog is a type of domesticated animal.
+  Known for its loyalty and faithfulness,
+  it can be found as a welcome guest in many households across the world.
+`;
+
   const items: CollapseProps['items'] = [
     {
       key: '1',
@@ -23,11 +29,11 @@ export const AntdCollapse = ({ children, style, ...props }: ComponentProps) => {
   return (
     <Collapse
       {...props}
+      items={items}
+      defaultActiveKey={['1']}
       style={{
         ...(style || {}),
       }}
-    >
-      {children}
-    </Collapse>
+    ></Collapse>
   );
 };

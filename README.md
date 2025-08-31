@@ -43,8 +43,8 @@ npx ME c -n xxx
 - [x] Collapse
 - [x] Avatar
 - [x] Badge
-- [ ] Card
-- [ ] Carousel
+- [x] Card
+- [x] Carousel
 - [ ] Descriptions
 - [ ] Empty
 - [ ] Image

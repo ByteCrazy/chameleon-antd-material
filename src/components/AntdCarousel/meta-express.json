@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdCarousel",
+  "componentPropTypeName": "CarouselProps",
+  "title": "AntdCarousel",
+  "isContainer": true,
+  "category": "Data Display",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

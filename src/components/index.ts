@@ -35,3 +35,5 @@ export * from './AntdRate';
 export * from './AntdCollapse';
 export * from './AntdAvatar';
 export * from './AntdBadge';
+export * from './AntdCard';
+export * from './AntdCarousel';
