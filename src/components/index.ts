@@ -33,3 +33,5 @@ export * from './AntdPopover';
 export * from './AntdTooltip';
 export * from './AntdRate';
 export * from './AntdCollapse';
+export * from './AntdAvatar';
+export * from './AntdBadge';

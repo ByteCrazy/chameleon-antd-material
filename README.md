@@ -41,8 +41,8 @@ npx ME c -n xxx
 - [x] Tooltip
 - [x] Rate
 - [x] Collapse
-- [ ] Avatar
-- [ ] Badge
+- [x] Avatar
+- [x] Badge
 - [ ] Card
 - [ ] Carousel
 - [ ] Descriptions

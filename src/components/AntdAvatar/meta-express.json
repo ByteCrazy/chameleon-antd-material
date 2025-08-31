@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdAvatar",
+  "componentPropTypeName": "AvatarProps",
+  "title": "AntdAvatar",
+  "isContainer": true,
+  "category": "Data Display",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}
