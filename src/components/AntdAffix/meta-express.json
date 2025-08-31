@@ -1,0 +1,10 @@
+{
+  "componentName": "AntdAffix",
+  "componentPropTypeName": "AffixProps",
+  "title": "AntdAffix",
+  "isContainer": true,
+  "category": "Navigation",
+  "groupName": "Antd",
+  "typeLibName": "antd",
+  "typeEntry": "./propsType.ts"
+}

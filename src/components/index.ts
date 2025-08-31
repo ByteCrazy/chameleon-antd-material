@@ -25,3 +25,4 @@ export * from './AntdDrawer';
 export * from './AntdUpload';
 export * from './AntdTable';
 export * from './AntdCalendar';
+export * from './AntdAffix';
