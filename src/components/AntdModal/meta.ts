@@ -14,7 +14,11 @@ const ComponentMeta: CMaterialType = {
   componentName: componentName,
   title: title || componentName,
   props: [...propMeta],
+  fixedProps: {
+    open: true,
+  },
   isContainer: isContainer,
+  rootSelector: '.ant-modal-content',
   category: category || '',
   groupName: groupName || '',
   events: [...events],

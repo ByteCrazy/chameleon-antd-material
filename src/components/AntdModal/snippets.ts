@@ -11,7 +11,6 @@ export const snippets: SnippetsType[] = [
         open: true,
         width: 520,
       },
-      children: ['模态框内容'],
     },
   },
 ];
