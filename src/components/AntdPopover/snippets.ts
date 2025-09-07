@@ -11,7 +11,6 @@ export const snippets: SnippetsType[] = [
         content: '气泡内容',
         placement: 'top',
       },
-      children: ['触发元素'],
     },
   },
 ];

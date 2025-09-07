@@ -37,25 +37,25 @@ npx ME c -n xxx
 ### AI 模型生成的组件 🤖
 
 - [x] Table
-- [x] Calendar ⚡ _AI 生成_
-- [x] Affix ⚡ _AI 生成_
-- [x] Alert ⚡ _AI 生成_
+- [x] Calendar
+- [x] Affix
+- [x] Alert
 - [x] Message ⚡ _AI 生成_
 - [x] Notification ⚡ _AI 生成_
 - [x] Popover ⚡ _AI 生成_
-- [x] Tooltip ⚡ _AI 生成_
+- [x] Tooltip
 - [x] Rate ⚡ _AI 生成_
-- [x] Collapse ⚡ _AI 生成_
+- [x] Collapse ⚡ _AI 生成_ 容器定制
 - [x] Avatar ⚡ _AI 生成_
 - [x] Badge ⚡ _AI 生成_
-- [x] Card ⚡ _AI 生成_
-- [x] Carousel ⚡ _AI 生成_
+- [x] Card ⚡ _AI 生成_ 容器定制
+- [x] Carousel ⚡ _AI 生成_ 容器定制
 - [x] Descriptions ⚡ _AI 生成_
 - [x] Empty ⚡ _AI 生成_
 - [x] Image ⚡ _AI 生成_
 - [x] Statistic ⚡ _AI 生成_
 - [x] Timeline ⚡ _AI 生成_
-- [x] Tree ⚡ _AI 生成_
+- [x] Tree ⚡ _AI 生成_ setter 切换报错
 - [x] Popconfirm ⚡ _AI 生成_
 - [x] Progress ⚡ _AI 生成_
 - [x] Spin ⚡ _AI 生成_

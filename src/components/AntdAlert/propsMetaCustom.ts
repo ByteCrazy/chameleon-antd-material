@@ -6,7 +6,7 @@ export const propMeta: CMaterialType['props'] = [
     name: 'content',
     title: 'content',
     valueType: 'string',
-    setters: ['StringSetter', 'TextAreaSetter'],
+    setters: ['StringSetter', 'TextAreaSetter', 'ExpressionSetter'],
   },
   ...isContainerMeta,
 ];

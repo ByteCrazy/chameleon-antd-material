@@ -9,7 +9,6 @@ export const snippets: SnippetsType[] = [
       props: {
         offsetTop: 10,
       },
-      children: ['固钉内容'],
     },
   },
 ];

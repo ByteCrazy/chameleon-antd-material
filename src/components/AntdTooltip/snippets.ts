@@ -11,7 +11,6 @@ export const snippets: SnippetsType[] = [
         placement: 'top',
         color: '#000000',
       },
-      children: ['触发元素'],
     },
   },
 ];
