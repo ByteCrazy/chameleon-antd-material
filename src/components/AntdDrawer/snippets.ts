@@ -12,7 +12,6 @@ export const snippets: SnippetsType[] = [
         open: true,
         width: 400,
       },
-      children: ['抽屉内容'],
     },
   },
 ];

@@ -16,6 +16,7 @@ const ComponentMeta: CMaterialType = {
   props: [...propMeta],
   fixedProps: {
     open: true,
+    getContainer: false,
   },
   isContainer: isContainer,
   rootSelector: '.ant-modal-content',

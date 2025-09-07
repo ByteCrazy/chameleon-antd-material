@@ -22,8 +22,8 @@ npx ME c -n xxx
 - [x] DatePicker
 - [x] Radio
 - [x] Select
-- [x] Slider ⚡ _AI 生成_
-- [x] Switch ⚡ _AI 生成_
+- [x] Slider
+- [x] Switch
 - [x] TimePicker
 - [x] TreeSelect
 - [x] Title

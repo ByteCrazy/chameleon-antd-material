@@ -15,7 +15,12 @@ const ComponentMeta: CMaterialType = {
   title: title || componentName,
   props: [...propMeta],
   isContainer: isContainer,
+  rootSelector: '.ant-drawer-content-wrapper',
   category: category || '',
+  fixedProps: {
+    open: true,
+    getContainer: false,
+  },
   groupName: groupName || '',
   events: [...events],
   npm: {
