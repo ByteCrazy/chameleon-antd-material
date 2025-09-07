@@ -11,7 +11,6 @@ export const snippets: SnippetsType[] = [
         listType: 'text',
         multiple: false,
       },
-      children: ['上传'],
     },
   },
 ];

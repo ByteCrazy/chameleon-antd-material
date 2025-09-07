@@ -56,7 +56,7 @@ export const propMeta: CMaterialType['props'] = [
           ],
         },
       },
-      'JSONSetter',
+      'ExpressionSetter',
     ],
   },
   {
@@ -109,7 +109,7 @@ export const propMeta: CMaterialType['props'] = [
           ],
         },
       },
-      'JSONSetter',
+      'ExpressionSetter',
     ],
   },
   {

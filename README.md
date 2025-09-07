@@ -36,7 +36,7 @@ npx ME c -n xxx
 
 ### AI 模型生成的组件 🤖
 
-- [x] Table ⚡ _AI 生成_
+- [x] Table
 - [x] Calendar ⚡ _AI 生成_
 - [x] Affix ⚡ _AI 生成_
 - [x] Alert ⚡ _AI 生成_

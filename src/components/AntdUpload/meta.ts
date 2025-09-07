@@ -18,6 +18,9 @@ const ComponentMeta: CMaterialType = {
   category: category || '',
   groupName: groupName || '',
   events: [...events],
+  fixedProps: {
+    disabled: true,
+  },
   npm: {
     name: componentName,
     package: __PACKAGE_NAME__ || '',
