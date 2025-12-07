@@ -1,5 +1,5 @@
 import pgk from './package.json';
-const GLOBAL_LIB_NAME = 'ChameleonMaterialDemo';
+const GLOBAL_LIB_NAME = 'ChameleonMaterialAntd';
 
 const envDefine = {
   __PACKAGE_VERSION__: JSON.stringify(pgk.version),
@@ -10,13 +10,7 @@ const envDefine = {
 // 开发模式默认读取 index.html 作为开发模式入口
 // entry 作为打包库入口
 const LIB_NAME = process.env.LIB_NAME;
-let buildConfig: any = {
-  entry: './src/index.tsx',
-  vite: {
-    define: envDefine,
-    plugins: [],
-  },
-};
+let buildConfig: any = {};
 
 if (LIB_NAME) {
   const libConfig = {
@@ -30,7 +24,7 @@ if (LIB_NAME) {
     },
     // 额外的 vite 配置
     vite: {
-      define: {},
+      define: envDefine,
     },
   };
 
