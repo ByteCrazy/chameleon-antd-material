@@ -12,21 +12,15 @@ export const AntdDatePicker = ({
   ...props
 }: ComponentProps) => {
   const innerMinData = useMemo(() => {
-    if (typeof minDate === 'string') {
-      return dayjs(minDate);
-    }
+    return dayjs(minDate);
   }, [minDate]);
 
   const innerMaxDate = useMemo(() => {
-    if (typeof maxDate === 'string') {
-      return dayjs(minDate);
-    }
+    return dayjs(minDate);
   }, [maxDate]);
 
   const innerDefaultValue = useMemo(() => {
-    if (typeof defaultValue === 'string') {
-      return dayjs(minDate);
-    }
+    return dayjs(minDate);
   }, [defaultValue]);
 
   const innerValObj = useMemo(() => {

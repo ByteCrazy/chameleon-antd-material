@@ -2,10 +2,10 @@ import { CMaterialType } from '@chamn/model';
 
 export const propMeta: CMaterialType['props'] = [
   {
-    name: 'afterChange',
-    title: 'afterChange',
-    valueType: 'object',
-    setters: ['ExpressionSetter', 'FunctionSetter'],
+    name: 'arrows',
+    title: 'arrows',
+    valueType: 'boolean',
+    setters: ['BooleanSetter'],
   },
   {
     name: 'autoplay',
@@ -76,6 +76,12 @@ export const propMeta: CMaterialType['props'] = [
     title: 'pauseOnHover',
     valueType: 'boolean',
     setters: ['BooleanSetter'],
+  },
+  {
+    name: 'afterChange',
+    title: 'afterChange',
+    valueType: 'object',
+    setters: ['ExpressionSetter', 'FunctionSetter'],
   },
   {
     name: 'speed',

@@ -1,5 +1,5 @@
 {
-  "name": "chameleon-material-demo",
+  "name": "@chamn/chamn-material-antd",
   "version": "0.0.1",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",

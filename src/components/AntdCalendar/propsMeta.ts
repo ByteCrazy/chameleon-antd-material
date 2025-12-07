@@ -5,13 +5,13 @@ export const propMeta: CMaterialType['props'] = [
     name: 'value',
     title: 'value',
     valueType: 'object',
-    setters: ['ExpressionSetter'],
+    setters: ['StringSetter', 'ExpressionSetter'],
   },
   {
     name: 'defaultValue',
     title: 'defaultValue',
     valueType: 'object',
-    setters: ['ExpressionSetter'],
+    setters: ['StringSetter', 'ExpressionSetter'],
   },
   {
     name: 'fullscreen',
